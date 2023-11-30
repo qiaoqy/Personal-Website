@@ -26,7 +26,7 @@ export default function Home() {
             
                 </div>
                 <p className="text-white/50 text-md mt-3">
-                   
+                乔启元的个人主页
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
@@ -47,7 +47,7 @@ export default function Home() {
 
         <div className="py-20">
         <p className="text-3xl text-white font-semibold">GitHub Repositories</p>
-        乔启元的个人主页
+
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-4 items-center mt-2">
           {_repositories
             ? repositories
